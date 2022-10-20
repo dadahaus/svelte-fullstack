@@ -1,7 +1,7 @@
 <script>
   import { Router } from "svelte-router-spa";
   import { routes } from "./routes";
-  import ''
+  import './dist/style.css'
 </script>
 
 <section class="section">
