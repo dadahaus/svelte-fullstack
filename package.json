@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
+    "svelte-navigator": "^3.2.2",
     "svelte-router-spa": "^6.0.3"
   }
 }
