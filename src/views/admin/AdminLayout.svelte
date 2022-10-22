@@ -6,8 +6,8 @@
   let initialized = false
   onMount(()=>{
     user.set({
-      name: 'test user',
-      schoolName: 'Test School',
+      name: 'Garfield',
+      schoolName: 'some other school',
 
     })
     initialized = true
