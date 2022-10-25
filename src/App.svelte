@@ -1,5 +1,5 @@
 <script>
-  import { Navigate } from "svelte-router-spa";
+  // import { Navigate } from "svelte-router-spa";
   import { Router } from "svelte-router-spa";
   import { routes } from "./routes";
   import "./dist/style.css";
@@ -63,7 +63,8 @@
     <center>
       <span> ALready registered? </span>
       <!-- <Navigate to="/admin/manage-menus"> -->
-        <button> Log in </button>
+       <a href="/admin/manage-menus"> <button> Log in </button> </a>
+        
       <!-- </Navigate> -->
     </center>
   </div>
