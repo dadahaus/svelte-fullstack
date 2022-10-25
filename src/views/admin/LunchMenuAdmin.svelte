@@ -16,4 +16,3 @@
   <h1 class="title is-4">Lunch Menu Administration /  as viewed by {$user.name}</h1>
 </div>
 
-export
