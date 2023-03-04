@@ -1,5 +1,5 @@
 <script>
-
+import { Navigate } from 'svelte-router-spa'
 
   function register() {
     alert(`your email is ${emailAdress} and your school is ${schoolName}`);
@@ -60,10 +60,10 @@
   <div class="content" style="line-height: 30px;">
     <center>
       <span> ALready registered? </span>
-      <!-- <Navigate to="/admin/manage-menus"> -->
-       <a href="/admin/manage-menus"> <button> Log in </button> </a>
-        
-      <!-- </Navigate> -->
+      <Navigate to="/admin/manage-menus">
+       <!-- <a href="/admin/manage-menus"> <button> Log in </button> </a> -->
+        <button class="button is-small is-text"> Log in</button>
+      </Navigate>
     </center>
   </div>
 </div>
